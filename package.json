@@ -1,0 +1,30 @@
+{
+  "name": "d_struct",
+  "version": "1.0.0",
+  "description": "Libreria de estructura de datos en node usando redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --coverage test/index.js",
+    "posttest": "standard --fix"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diacasasce/D_struct.git"
+  },
+  "keywords": [],
+  "author": "Diego Casas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diacasasce/D_struct/issues"
+  },
+  "homepage": "https://github.com/diacasasce/D_struct#readme",
+  "dependencies": {
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nyc": "^11.6.0",
+    "standard": "^11.0.1",
+    "tap": "^11.1.2"
+  }
+}
